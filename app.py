@@ -314,7 +314,7 @@ def calculate(row):
     electric_cost = electric_used * int(gia_dien)
     water_cost = water_used * int(gia_nuoc)
 total = int(row["rent"]) + electric_cost + water_cost + int(phi_khac)
-    return electric_used, water_used, electric_cost, water_cost, total
+return electric_used, water_used, electric_cost, water_cost, total
 
 
 def money(value):
